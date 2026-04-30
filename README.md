@@ -1,4 +1,4 @@
-# Industrial Anomaly Diagnosis + Root Cause Analysis Agent
+# AR Industrial Anomaly Diagnosis + Root Cause Analysis Agent
 
 一个面向**工业设备报警诊断、根因分析、处置建议与复盘**的多 Agent 项目模板，适合直接上传到 GitHub 作为作品集 / 毕设延展 / 面试项目。
 
