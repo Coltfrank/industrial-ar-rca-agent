@@ -1,0 +1,17 @@
+{
+  "ALM-204": {
+    "message": "Transfer station timeout",
+    "description": "Workpiece transfer did not complete within expected cycle window.",
+    "trigger_conditions": [
+      "Transfer command issued",
+      "PE_14 not detected within 5s",
+      "Station in AUTO mode"
+    ],
+    "common_causes": [
+      "Workpiece jam in transfer zone",
+      "PE_14 blocked/failed",
+      "Cylinder not reaching position",
+      "Air pressure low"
+    ]
+  }
+}

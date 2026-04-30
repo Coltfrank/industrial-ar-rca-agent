@@ -1,0 +1,33 @@
+{
+  "line_id": "LINE-01",
+  "station_id": "ST-TRANSFER-02",
+  "equipment_id": "EQ-TR-02",
+  "timestamp": "2026-04-30T10:00:00",
+  "alarm_code": "ALM-204",
+  "alarm_message": "Transfer station timeout",
+  "mode": "AUTO",
+  "plc_snapshot": [
+    {
+      "tag": "PE_14",
+      "value": "OFF"
+    },
+    {
+      "tag": "MTR_TRANSFER_CURRENT_HIGH",
+      "value": "FALSE"
+    },
+    {
+      "tag": "AIR_PRESSURE_LOW",
+      "value": "FALSE"
+    }
+  ],
+  "recent_operations": [
+    {
+      "ts": "2026-04-30T09:59:52",
+      "action": "Transfer command issued",
+      "operator": "system"
+    }
+  ],
+  "process_context": {
+    "product_type": "BOX-A"
+  }
+}

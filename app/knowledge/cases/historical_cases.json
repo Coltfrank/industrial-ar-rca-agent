@@ -1,0 +1,34 @@
+[
+  {
+    "case_id": "C-102",
+    "alarm_code": "ALM-204",
+    "symptoms": [
+      "PE_14 OFF",
+      "transfer current high",
+      "workpiece stuck at guide rail"
+    ],
+    "root_cause": "workpiece jam in transfer guide rail",
+    "resolution": [
+      "clear jam",
+      "clean sensor",
+      "retry cycle"
+    ],
+    "lesson_learned": "guide rail width drift caused repeated jam"
+  },
+  {
+    "case_id": "C-118",
+    "alarm_code": "ALM-204",
+    "symptoms": [
+      "PE_14 OFF",
+      "indicator unstable",
+      "no current rise"
+    ],
+    "root_cause": "PE_14 sensor contamination",
+    "resolution": [
+      "clean lens",
+      "verify mounting angle",
+      "reset"
+    ],
+    "lesson_learned": "add cleaning check to PM list"
+  }
+]

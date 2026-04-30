@@ -1,0 +1,49 @@
+{
+  "line_id": "LINE-01",
+  "station_id": "ST-TRANSFER-02",
+  "equipment_id": "EQ-TR-02",
+  "timestamp": "2026-04-30T09:12:05",
+  "alarm_code": "ALM-204",
+  "alarm_message": "Transfer station timeout",
+  "mode": "AUTO",
+  "plc_snapshot": [
+    {
+      "tag": "PE_14",
+      "value": "OFF"
+    },
+    {
+      "tag": "MTR_TRANSFER_CURRENT_HIGH",
+      "value": "TRUE"
+    },
+    {
+      "tag": "AIR_PRESSURE_LOW",
+      "value": "FALSE"
+    },
+    {
+      "tag": "SAFETY_DOOR_OPEN",
+      "value": "FALSE"
+    }
+  ],
+  "recent_operations": [
+    {
+      "ts": "2026-04-30T09:11:55",
+      "action": "Upstream station released workpiece",
+      "operator": "system"
+    },
+    {
+      "ts": "2026-04-30T09:11:58",
+      "action": "Transfer command issued",
+      "operator": "system"
+    },
+    {
+      "ts": "2026-04-30T09:12:00",
+      "action": "Transfer conveyor start",
+      "operator": "system"
+    }
+  ],
+  "process_context": {
+    "product_type": "BOX-A",
+    "shift": "DAY",
+    "batch_id": "B240430-01"
+  }
+}
